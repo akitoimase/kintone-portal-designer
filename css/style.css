@@ -24,23 +24,23 @@ a:hover {
   background: #FAFAFA;
   padding-bottom: 200px;
   display: flex;
-  background-image: url(../images/graph_bg.png);
+  background-image: url(https://github.com/akitoimase/kintone-portal-designer/blob/main/images/graph_bg.png?raw=true);
   background-repeat: no-repeat;
   background-position: right top 40px;
   background-attachment: fixed;
   background-size: 12%;
 }
 .simple_scroll.dash_bg {
-  background-image: url(../images/graph_bg.png);
+  background-image: url(https://github.com/akitoimase/kintone-portal-designer/blob/main/images/graph_bg.png?raw=true);
 }
 .simple_scroll.app_bg {
-  background-image: url(../images/app_bg.png);
+  background-image: url(https://github.com/akitoimase/kintone-portal-designer/blob/main/images/app_bg.png?raw=true);
 }
 .simple_scroll.space_bg {
-  background-image: url(../images/space_bg.png);
+  background-image: url(https://github.com/akitoimase/kintone-portal-designer/blob/main/images/space_bg.png?raw=true);
 }
 .simple_scroll.link_bg {
-  background-image: url(../images/link_bg.png);
+  background-image: url(https://github.com/akitoimase/kintone-portal-designer/blob/main/images/link_bg.png?raw=true);
 }
 .main_column {
   width: calc((100vw - 240px) * 0.8);
@@ -100,28 +100,28 @@ h5 {
   background-position: left center;
 }
 .dash_li a {
-  background-image: url(../images/dash_icon.png);
+  background-image: url(https://github.com/akitoimase/kintone-portal-designer/blob/main/images/dash_icon.png?raw=true);
 }
 .dash_li.active a {
-  background-image: url(../images/dash_icon_hover.png);
+  background-image: url(https://github.com/akitoimase/kintone-portal-designer/blob/main/images/dash_icon_hover.png?raw=true);
 }
 .app_li a {
-  background-image: url(../images/app_icon.png);
+  background-image: url(https://github.com/akitoimase/kintone-portal-designer/blob/main/images/app_icon.png?raw=true);
 }
 .app_li.active a {
-  background-image: url(../images/app_icon_hover.png);
+  background-image: url(https://github.com/akitoimase/kintone-portal-designer/blob/main/images/app_icon_hover.png?raw=true);
 }
 .space_li a {
-  background-image: url(../images/space_icon.png);
+  background-image: url(https://github.com/akitoimase/kintone-portal-designer/blob/main/images/space_icon.png?raw=true);
 }
 .space_li.active a {
-  background-image: url(../images/space_icon_hover.png);
+  background-image: url(https://github.com/akitoimase/kintone-portal-designer/blob/main/images/space_icon_hover.png?raw=true);
 }
 .link_li a {
-  background-image: url(../images/link_icon.png);
+  background-image: url(https://github.com/akitoimase/kintone-portal-designer/blob/main/images/link_icon.png?raw=true);
 }
 .link_li.active a {
-  background-image: url(../images/link_icon_hover.png);
+  background-image: url(https://github.com/akitoimase/kintone-portal-designer/blob/main/images/link_icon_hover.png?raw=true);
 }
 .active {
   font-weight: bold;
@@ -163,9 +163,13 @@ h5 {
   width: 11%;
   text-align: center;
 }
+.app_list li img {
+  width: 100%;
+}
 .app_list li p {
   margin-top: 8px;
   white-space: nowrap;
+  font-size: 1.8rem;
 }
 
 /* App sp */
@@ -257,6 +261,7 @@ h5 {
   .simple_scroll {
     display: block;
     background-size: 40%;
+    margin-bottom: 100px;
   }
   .graph_bottom {
     display: block;
