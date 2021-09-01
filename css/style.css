@@ -4,8 +4,7 @@ html {
 }
 body {
   font-family:"游ゴシック Medium",YuGothic,YuGothicM,"Hiragino Kaku Gothic ProN","Hiragino Kaku Gothic Pro",メイリオ,Meiryo,sans-serif;
-  background: #fff;
-  color: #3B4043;
+  color: #2D2D2D;
 	font-size: 1.8rem;
 	line-height: 1.8;
 }
@@ -52,6 +51,10 @@ a:hover {
 section {
   max-width: 1152px;
   margin-right: 26px;
+  margin-bottom: 12px;
+  padding-top: 108px;
+}
+section:first-of-type {
   margin-bottom: 60px;
   padding-top: 60px;
 }
@@ -249,6 +252,11 @@ h5 {
   section {
     margin-right: auto;
     margin-bottom: 0;
+    padding-top: 60px;
+  }
+  section:first-of-type {
+    margin-bottom: 0;
+    padding-top: 40px;
   }
   .main_column {
     width: auto;
